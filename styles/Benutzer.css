@@ -15,12 +15,61 @@ body {
 
 .user-settings{
   background-color: White;
-  height: 160px;
+  height: 220px;
   
   border-radius: 4px;
   
-  text-align: center;
-  
   margin-bottom: 10px;
+
 }
 
+form {
+  
+  align-items: center;
+  padding-top: 20px;
+  font-family: serif;
+  
+}
+
+label {
+  margin-left: 10%;
+  
+  color: gray;
+}
+
+input {
+  margin-left: 10%;
+  width: 85%;
+  border: none;
+  
+
+}
+
+input:focus {
+  
+  outline: none;
+}
+
+.input-container{ 
+  
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  border-radius: 6px;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.input-container:focus-within{ 
+  
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  border-radius: 6px;
+  border: 1px;
+  border-style: solid;
+  border-color: blue;
+}
